@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../../estupendo/CodeCommit_Stupendo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Ekoomedia_fullstack_01122020/ekoomedia_laravel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Ekoomedia_fullstack_01122020/ekoomedia_react" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Pixarron_08012021/pixarron_laravel" vcs="Git" />
+  </component>
+</project>

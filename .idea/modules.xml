@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../estupendo/CodeCommit_Stupendo/.idea/CodeCommit_Stupendo.iml" filepath="$PROJECT_DIR$/../../../estupendo/CodeCommit_Stupendo/.idea/CodeCommit_Stupendo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Ekoomedia_fullstack_01122020/ekoomedia_laravel/.idea/ekoomedia_laravel.iml" filepath="$PROJECT_DIR$/../../Ekoomedia_fullstack_01122020/ekoomedia_laravel/.idea/ekoomedia_laravel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Ekoomedia_fullstack_01122020/ekoomedia_react/.idea/ekoomedia_react.iml" filepath="$PROJECT_DIR$/../../Ekoomedia_fullstack_01122020/ekoomedia_react/.idea/ekoomedia_react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gradiweb_laravel.iml" filepath="$PROJECT_DIR$/.idea/gradiweb_laravel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Pixarron_08012021/pixarron_laravel/.idea/pixarron_web.iml" filepath="$PROJECT_DIR$/../../Pixarron_08012021/pixarron_laravel/.idea/pixarron_web.iml" />
+    </modules>
+  </component>
+</project>
