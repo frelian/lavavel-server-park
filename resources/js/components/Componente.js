@@ -12,7 +12,7 @@ export default class Componente extends Component {
                                 <p>
                                     Éste es el servidor Web, para ingresar al cliente ve a:
                                 </p>
-                                <a href="https://gradiweb-clientui.herokuapp.com/">Cliente VueJs</a>
+                                <a href="//gradiweb-clientui.herokuapp.com/">Cliente VueJs</a>
                             </div>
                         </div>
                     </div>
