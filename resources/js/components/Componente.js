@@ -8,7 +8,12 @@ export default class Componente extends Component {
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="card">
-                            <div className="card-header">Hola, Este es el componente.</div>
+                            <div className="card-header">
+                                <p>
+                                    Éste es el servidor Web, para ingresar al cliente ve a:
+                                </p>
+                                <a href="https://gradiweb-clientui.herokuapp.com/">Cliente VueJs</a>
+                            </div>
                         </div>
                     </div>
                 </div>

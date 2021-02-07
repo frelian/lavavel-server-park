@@ -67479,7 +67479,9 @@ var Componente = /*#__PURE__*/function (_Component) {
         className: "card"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card-header"
-      }, "Hola, Este es el componente.")))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\xC9ste es el servidor Web, para ingresar al cliente ve a:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://gradiweb-clientui.herokuapp.com/"
+      }, "Cliente VueJs"))))));
     }
   }]);
 
