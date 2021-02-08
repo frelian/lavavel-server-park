@@ -78,11 +78,29 @@ class Vehicle extends Model
 
     public function scopeGetByMarkCount($query)
     {
-        $query
-            ->select(
-                DB::raw("CONCAT(UCASE(LEFT(mark, 1)), SUBSTRING(mark, 2)) as mark, COUNT(*) as total")
-            )
-            ->groupBy('mark');
+        // Valido el motor de base de datos
+        // mysql o postgresql
+        $db_engine = env('DB_CONNECTION');
+
+        if ($db_engine == "pgsql") {
+
+            // Consulta nativa PostgreSQL
+            // SELECT CONCAT(LOWER(LEFT(mark, 1)), SUBSTRING(mark, 2)) as mark, COUNT(*) as total FROM vehicles GROUP BY mark
+            $query
+                ->select(
+                    DB::raw("CONCAT(LOWER(LEFT(mark, 1)), SUBSTRING(mark, 2)) as mark, COUNT(*) as total")
+                )
+                ->groupBy('mark');
+        }
+
+        if ($db_engine == "mysql") {
+            $query
+                ->select(
+                    DB::raw("CONCAT(UCASE(LEFT(mark, 1)), SUBSTRING(mark, 2)) as mark, COUNT(*) as total")
+                )
+                ->groupBy('mark');
+        }
+
         return $query;
     }
 }
